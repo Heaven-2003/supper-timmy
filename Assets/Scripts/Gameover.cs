@@ -15,4 +15,9 @@ public class Gameover : MonoBehaviour
     {
         SceneManager.LoadScene("Levels");
     }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
 }
